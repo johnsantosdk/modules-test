@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon -e js, graphql src/main.js",
+    "start": "nodemon -e js src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,15 @@
   },
   "homepage": "https://github.com/johnsantosdk/modules-test#readme",
   "dependencies": {
-    "nodemon": "^2.0.4"
+    "is-promise": "^4.0.0",
+    "node": "^12.12.0",
+    "nodemon": "^2.0.4",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.3"
   }
 }
