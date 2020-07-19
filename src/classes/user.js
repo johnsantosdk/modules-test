@@ -9,6 +9,6 @@ export function printName( user ) {
     console.log(`User's name is ${user.name}`)
 }
 
-export function printAg( user ) {
+export function printAge( user ) {
     console.log(`User's age is ${user.age} years old`)
 }
